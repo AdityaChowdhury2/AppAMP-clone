@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: .4s;
 }
 .text-left{
     text-align: left;
@@ -40,6 +41,7 @@ body,h1,h2,h3,h4,h5,h6,a,span,small{
 .header-section{
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    padding: 10px 0px
 }
 .header-logo{
     width: 30%;
@@ -55,24 +57,63 @@ body,h1,h2,h3,h4,h5,h6,a,span,small{
     font-size: 26px;
     font-weight: 500;
 }
-.header-menu{
-    width: 60%;
+.header-menu {
+    width: 57%;
 }
-.header-button{
-    width: 10%;
+.header-button {
+    width: 13%;
+    text-align: center;
+}
+.btn-header {
+    display: inline-block;
+    border: 2px solid #6278df;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #6278df;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .primary-menu{}
 .primary-menu ul{}
 .primary-menu ul li{
     display: inline-block;
 }
-.primary-menu ul li a{
+.primary-menu ul li a {
     display: block;
+    padding: 0px 25px;
+    font-size: 16px;
+    line-height: 45px;
 }
 .primary-menu ul li a:hover{}
-.btn{
-
+.primary-menu ul li{
+    position: relative;
 }
-.btn-header{
-
+.primary-menu ul li ul.demo-menu{
+    width: 245px;
+}
+.primary-menu ul li ul.demo-menu li{
+    width: 100%;
+}
+.primary-menu ul li ul{
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: 208px;
+    background: #fff;
+    opacity: 0; 
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.primary-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.primary-menu ul li ul li{
+    border-bottom: 1px solid #ddd;
+}
+.primary-menu ul li ul li:last-child{
+    border: none;
 }
