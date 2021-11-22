@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1308px;
+    margin: auto;
+}
+/* Begain Main CSS */
+body,h1,h2,h3,h4,h5,h6,a,span,small{
+    font-family: 'Work Sans', sans-serif;
+    color: #010101;
+}
+.header-section{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.header-logo{
+    width: 30%;
+}
+.logo img {
+    height: 45px;
+    float: left;
+    margin-right: 10px;
+}
+.logo span {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.header-menu{
+    width: 60%;
+}
+.header-button{
+    width: 10%;
+}
+.primary-menu{}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+}
+.primary-menu ul li a:hover{}
+.btn{
+
+}
+.btn-header{
+
+}
