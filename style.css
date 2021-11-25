@@ -75,6 +75,11 @@ body,h1,h2,h3,h4,h5,h6,a,span,small{
     font-size: 15px;
     font-weight: 600;
 }
+.btn-header:hover{
+    color: #fff;
+    background-color: #6278df;
+    box-shadow: 6px 6px 10px #6278df;
+}
 .primary-menu{}
 .primary-menu ul{}
 .primary-menu ul li{
@@ -161,4 +166,27 @@ body,h1,h2,h3,h4,h5,h6,a,span,small{
     font-size: 22px;
     margin-right: 8px;
     font-weight: 600;
+}
+/* Banner Bottom CSS */
+.banner-bottom {
+    background-color: #f7f9ff;
+    padding: 100px 0;
+}
+.video-left{
+    width: 48%;
+}
+.content-right{
+    width: 48%;
+}
+.content-right h3 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: -3px;
+}
+.content-right p {
+    color: rgb(118, 118, 118);
+    font-size: 21px;
+    line-height: 2rem;
+    font-weight: 200;
 }
